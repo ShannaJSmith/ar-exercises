@@ -9,4 +9,4 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 @store1.name = 'H&M'
 @store1.save
-# @store1.update(name: 'H&M')  # shorthand using hash mapping 
+# @store1.update(name: 'GAP')  <- shorthand using hash mapping 
